@@ -1,0 +1,63 @@
+#hero {
+  width: 744px;
+  height: 100%;
+  flex-shrink: 0;
+  display: flex;
+  margin-bottom: 4rem;
+
+  .container {
+    width: auto;
+    flex-direction: column;
+    align-items: center;
+
+    .title {
+      justify-content: center;
+      align-items: center;
+
+      h1 {
+        font-size: 120px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 115.2%;
+        width: 525px;
+      }
+
+      .Photography {
+        width: 400px;
+        margin-left: 3rem;
+      }
+    }
+
+    .paragraph {
+      margin-top: 4rem;
+      font-family: Lato;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      width: 600px;
+      margin-right: 4rem;
+    }
+
+    .links {
+      margin-top: 10rem;
+      display: flex;
+      flex-direction: column;
+
+      .link {
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 85%;
+        width: 100%;
+        flex-wrap: nowrap;
+
+        a {
+          display: inline-flex;
+          align-items: center;
+          gap: 0.5rem;
+        }
+      }
+    }
+  }
+}

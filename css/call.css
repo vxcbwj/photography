@@ -1,0 +1,28 @@
+#call-to-use {
+  width: 100%;
+  flex-shrink: 0;
+  padding: 9rem 4rem;
+  overflow: hidden;
+  background-image: url("/images/calltouseimage.png");
+  position: relative;
+  filter: grayscale(100%);
+  opacity: 0.7;
+  margin-bottom: 0;
+
+  & .call {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+    & h2 {
+      width: 740px;
+      opacity: 1;
+    }
+
+    & h4 {
+      font-family: Lato;
+      font-size: 28px;
+      font-weight: 500;
+    }
+  }
+}

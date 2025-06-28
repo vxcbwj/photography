@@ -1,0 +1,52 @@
+#service {
+  width: 100%;
+  max-width: 1227px;
+  height: auto;
+  flex-shrink: 0;
+  margin: 4rem 2rem;
+  overflow: hidden;
+
+  .services {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 3rem;
+
+    h2 {
+      font-size: 60px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 75px;
+    }
+
+    .woman3 {
+      width: 527px;
+      height: auto;
+      flex-shrink: 0;
+      max-width: 100%;
+      align-self: flex-end;
+      filter: grayscale(100%);
+    }
+
+    .service-list {
+      display: flex;
+      flex-direction: column;
+      gap: 3rem;
+
+      .one-service {
+        display: flex;
+        justify-content: space-between;
+        cursor: pointer;
+        font-family: Lato;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 74.7%;
+        flex-shrink: 0;
+        border-bottom: solid white 3px;
+        padding-bottom: 5px;
+        width: 600px;
+      }
+    }
+  }
+}

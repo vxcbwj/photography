@@ -1,0 +1,87 @@
+footer {
+  background-color: var(--footer-color);
+  flex-shrink: 0;
+  width: 100%;
+  padding-top: 2rem;
+  & .contact {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    justify-content: space-evenly;
+    & .quick-links {
+      display: flex;
+      flex-direction: column;
+      gap: 3rem;
+      & h3 {
+        font-family: "Source Sans Pro";
+        font-size: 24px;
+        font-weight: 700;
+        width: 181px;
+      }
+      & ul {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        & li {
+          font-family: Lato;
+          font-size: 18px;
+          font-weight: 500;
+        }
+      }
+    }
+    & .contact-us {
+      display: flex;
+      flex-direction: column;
+      gap: 3rem;
+      & h3 {
+        font-family: "Source Sans Pro";
+        font-size: 24px;
+        font-weight: 700;
+        width: 181px;
+      }
+      & .contact-links {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        & a {
+          font-family: Lato;
+          font-size: 18px;
+          font-weight: 500;
+        }
+      }
+    }
+    & .subscribe {
+      display: flex;
+      flex-direction: column;
+      gap: 3rem;
+      & h3 {
+        font-family: "Source Sans Pro";
+        font-size: 24px;
+        font-weight: 700;
+        width: 181px;
+      }
+      & form {
+        display: flex;
+        flex-direction: row;
+        gap: none;
+        & input {
+          padding: 16px 16px;
+          background-color: white;
+        }
+        & button {
+          padding: 16px 16px;
+          background-color: #591a06;
+          font-family: "Source Sans Pro";
+          font-size: 20px;
+          font-style: normal;
+          font-weight: 700;
+        }
+      }
+      & img {
+        width: 220px;
+        height: 40px;
+        flex-shrink: 0;
+      }
+    }
+  }
+}

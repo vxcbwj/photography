@@ -1,0 +1,36 @@
+header {
+  display: flex;
+  padding: 2rem 1rem;
+
+  .navbar {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    .logo {
+      img {
+        width: 24px;
+        height: 24px;
+      }
+
+      span {
+        font-size: 34px;
+      }
+    }
+
+    .navigation {
+      display: flex;
+      flex-direction: row;
+      gap: 2rem;
+      margin-right: 2rem;
+
+      li {
+        font-size: 24px;
+        font-weight: 600;
+        font-style: normal;
+        line-height: normal;
+      }
+    }
+  }
+}
