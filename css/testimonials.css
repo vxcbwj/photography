@@ -17,12 +17,21 @@
       font-style: normal;
       font-weight: 700;
       line-height: normal;
+      @media (max-width: 1024px) {
+        font-size: 50px;
+      }
+      @media (max-width: 768px) {
+        font-size: 35px;
+      }
     }
 
     .clients {
       display: flex;
       flex-direction: row;
       gap: 2rem;
+      @media (max-width: 1024px) {
+        flex-wrap: wrap;
+      }
 
       .client {
         display: flex;
@@ -41,6 +50,12 @@
         font-style: normal;
         font-weight: 700;
         line-height: normal;
+        @media (max-width: 1024px) {
+          font-size: 24px;
+        }
+        @media (max-width: 768px) {
+          font-size: 20px;
+        }
       }
 
       h4 {
@@ -50,6 +65,12 @@
         font-weight: 300;
         line-height: normal;
         opacity: 0.5;
+        @media (max-width: 1024px) {
+          font-size: 12px;
+        }
+        @media (max-width: 768px) {
+          font-size: 10px;
+        }
       }
 
       p {
@@ -58,6 +79,12 @@
         font-style: normal;
         font-weight: 400;
         line-height: normal;
+        @media (max-width: 1024px) {
+          font-size: 16px;
+        }
+        @media (max-width: 768px) {
+          font-size: 12px;
+        }
       }
     }
   }

@@ -17,6 +17,12 @@
       font-style: normal;
       font-weight: 700;
       line-height: 75px;
+      @media (max-width: 1024px) {
+        font-size: 40px;
+      }
+      @media (max-width: 768px) {
+        font-size: 25px;
+      }
     }
 
     .woman3 {
@@ -26,12 +32,24 @@
       max-width: 100%;
       align-self: flex-end;
       filter: grayscale(100%);
+      @media (max-width: 1024px) {
+        align-self: flex-start;
+      }
+      @media (max-width: 768px) {
+        align-self: flex-start;
+      }
     }
 
     .service-list {
       display: flex;
       flex-direction: column;
       gap: 3rem;
+      @media (max-width: 1024px) {
+        gap: 2rem;
+      }
+      @media (max-width: 768px) {
+        gap: 1rem;
+      }
 
       .one-service {
         display: flex;
@@ -46,6 +64,14 @@
         border-bottom: solid white 3px;
         padding-bottom: 5px;
         width: 600px;
+        @media (max-width: 1024px) {
+          font-size: 20px;
+          width: 400px;
+        }
+        @media (max-width: 768px) {
+          font-size: 15px;
+          width: 250px;
+        }
       }
     }
   }

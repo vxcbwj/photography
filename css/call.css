@@ -17,12 +17,26 @@
     & h2 {
       width: 740px;
       opacity: 1;
+      @media (max-width: 1024px) {
+        width: 650px;
+        font-size: 40px;
+      }
+      @media (max-width: 768px) {
+        width: 550px;
+        font-size: 20px;
+      }
     }
 
     & h4 {
       font-family: Lato;
       font-size: 28px;
       font-weight: 500;
+      @media (max-width: 1024px) {
+        font-size: 22px;
+      }
+      @media (max-width: 768px) {
+        font-size: 18px;
+      }
     }
   }
 }

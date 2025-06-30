@@ -2,12 +2,16 @@ footer {
   background-color: var(--footer-color);
   flex-shrink: 0;
   width: 100%;
-  padding-top: 2rem;
+  padding: 2rem;
   & .contact {
     display: flex;
     flex-direction: row;
     gap: 2rem;
     justify-content: space-evenly;
+    @media (max-width: 1024px) {
+      flex-wrap: wrap;
+      flex-direction: column;
+    }
     & .quick-links {
       display: flex;
       flex-direction: column;
@@ -17,6 +21,14 @@ footer {
         font-size: 24px;
         font-weight: 700;
         width: 181px;
+        @media (max-width: 1024px) {
+          font-size: 22px;
+          width: 100px;
+        }
+        @media (max-width: 768px) {
+          font-size: 20px;
+          width: 80px;
+        }
       }
       & ul {
         display: flex;
@@ -26,6 +38,12 @@ footer {
           font-family: Lato;
           font-size: 18px;
           font-weight: 500;
+          @media (max-width: 1024px) {
+            font-size: 16px;
+          }
+          @media (max-width: 768px) {
+            font-size: 12px;
+          }
         }
       }
     }
@@ -38,6 +56,14 @@ footer {
         font-size: 24px;
         font-weight: 700;
         width: 181px;
+        @media (max-width: 1024px) {
+          font-size: 20px;
+          width: 100px;
+        }
+        @media (max-width: 768px) {
+          font-size: 18px;
+          width: 75px;
+        }
       }
       & .contact-links {
         display: flex;
@@ -47,6 +73,12 @@ footer {
           font-family: Lato;
           font-size: 18px;
           font-weight: 500;
+          @media (max-width: 1024px) {
+            font-size: 16px;
+          }
+          @media (max-width: 768px) {
+            font-size: 12px;
+          }
         }
       }
     }
@@ -59,6 +91,14 @@ footer {
         font-size: 24px;
         font-weight: 700;
         width: 181px;
+        @media (max-width: 1024px) {
+          font-size: 20px;
+          width: 100px;
+        }
+        @media (max-width: 768px) {
+          font-size: 18px;
+          width: 75px;
+        }
       }
       & form {
         display: flex;
@@ -67,6 +107,12 @@ footer {
         & input {
           padding: 16px 16px;
           background-color: white;
+          @media (max-width: 1024px) {
+            padding: 12px 12px;
+          }
+          @media (max-width: 1024px) {
+            padding: 10px 10px;
+          }
         }
         & button {
           padding: 16px 16px;
@@ -75,12 +121,26 @@ footer {
           font-size: 20px;
           font-style: normal;
           font-weight: 700;
+          @media (max-width: 1024px) {
+            padding: 12px 12px;
+          }
+          @media (max-width: 1024px) {
+            padding: 10px 10px;
+          }
         }
       }
       & img {
         width: 220px;
         height: 40px;
         flex-shrink: 0;
+        @media (max-width: 1024px) {
+          width: 170px;
+          height: 30px;
+        }
+        @media (max-width: 768px) {
+          width: 100px;
+          height: 20px;
+        }
       }
     }
   }

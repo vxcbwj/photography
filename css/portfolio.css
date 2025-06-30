@@ -16,6 +16,12 @@
       font-style: normal;
       font-weight: 700;
       line-height: 115.2%;
+      @media (max-width: 1024px) {
+        font-size: 45px;
+      }
+      @media (max-width: 768px) {
+        font-size: 35px;
+      }
     }
 
     .image-space {
@@ -25,6 +31,12 @@
       gap: 1rem;
       max-width: 1200px;
       margin: auto;
+      @media (max-width: 1024px) {
+        max-width: 900px;
+      }
+      @media (max-width: 768px) {
+        max-width: 600px;
+      }
 
       .image-block {
         position: relative;
